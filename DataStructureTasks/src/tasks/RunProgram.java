@@ -15,7 +15,5 @@ public class RunProgram {
 		System.out.println("array3 meet the conditions? " + hw.isTrue(array3));
 		System.out.println("array4 meet the conditions? " + hw.isTrue(array4));
 
-		
-
 	}
 }
