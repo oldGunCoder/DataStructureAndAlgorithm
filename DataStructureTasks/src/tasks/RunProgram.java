@@ -20,9 +20,9 @@ public class RunProgram {
 	public static void main(String[] args) {
 		Homework2 hw2 = new Homework2();
 		
-		int[] array1 = new int[] {};
-		int[] array2 = new int[] {1, 2, 3};
-		int[] array3 = new int[] {1, 2, 3, 4};
+		int[] array1 = new int[] {1, 2, 3, 4};
+		int[] array2 = new int[] {7, 1, 2, 3, 4, 9};
+		int[] array3 = new int[] {1, 2};
 		
 		hw2.makeMiddle(array1);
 		hw2.makeMiddle(array2);
