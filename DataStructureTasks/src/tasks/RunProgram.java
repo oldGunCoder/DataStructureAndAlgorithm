@@ -27,7 +27,24 @@ public class RunProgram {
 		hw2.makeMiddle(array1);
 		hw2.makeMiddle(array2);
 		hw2.makeMiddle(array3);
+		System.out.println("********************************************");
 		
+		int[] array4 = new int[] {};
+		int[] array5 = new int[] {6, 2, 5, 3};
+		int[] array6 = new int[] {1,2};
+		int[] array7 = new int[] {1};
+		
+		hw2.fun(array4);
+		System.out.println();
+		hw2.fun(array5);
+		System.out.println();
+		hw2.fun(array6);
+		System.out.println();
+		hw2.fun(array7);
+		System.out.println();
+		System.out.println("********************************************");
+
+
 	}
 	
 }
