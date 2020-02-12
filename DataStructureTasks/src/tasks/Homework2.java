@@ -59,8 +59,12 @@ public class Homework2 {
 		middleWay([7, 7, 7], [3, 8, 0]) ? [7, 8]
 		middleWay([5, 2, 9], [1, 4, 5]) ? [2, 4]
 	 * */
-	public void middleWay() {
-		
+	public int[] middleWay(int[] arr1, int[] arr2 ) {
+		int a = arr1[1];
+		int b = arr2[1];
+		int[] newArr = {a, b};
+		System.out.println("The new array is {" + a + ", " + b +"}" );
+		return newArr;
 	}
 	
 }
