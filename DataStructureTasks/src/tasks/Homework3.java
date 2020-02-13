@@ -1,5 +1,6 @@
 package tasks;
-
+import java.util.Arrays;
+import java.util.stream.*;
 public class Homework3 {
 
 	/*1-
@@ -55,8 +56,17 @@ public class Homework3 {
 	splitArray([2, 3]) ? false
 	splitArray([5, 2, 3]) ? true*/
 	
+
 	public boolean splitArray(int[] arr) {
-		
-		return true;
+	   
+		if(arr[0] == Arrays.stream(arr,1,arr.length).sum()) {
+			return true;
+		} else if (arr.length >=2) {
+			arr[1] = arr[0] + arr[1];
+			arr = Arrays.copyOfRange(arr, 1, arr.length);
+			return splitArray(arr);
+		} else
+			return false;
 	}
+	
 }

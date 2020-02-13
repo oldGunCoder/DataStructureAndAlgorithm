@@ -62,7 +62,12 @@ public class RunProgram {
 		System.out.println("********************************************");
 		System.out.println(hw3.countElevens("119110114511119"));
 		System.out.println("********************************************");
-		
-		
+		int[] array_d1 = new int[] {1,4,5};
+		int[] array_d2 = new int[] {1,5,9};
+		int[] array_d3 = new int[] {2,3,2,6,8,5};
+		System.out.println(hw3.splitArray(array_d1));
+		System.out.println(hw3.splitArray(array_d2));
+		System.out.println(hw3.splitArray(array_d3));
+
 	}
 }
