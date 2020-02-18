@@ -1,6 +1,6 @@
 package Homework4;
 
-public class Car {
+public class Car implements Comparable<Car>{
 /*
 •Create a class CAR with 3 fields model and make and year.
 •Create 5 car objects and use stack to store them
@@ -10,7 +10,8 @@ public class Car {
 */
 	private String model;
 	private String make;
-	private int year;
+	private Integer year;
+	
 	public String getModel() {
 		return model;
 	}
@@ -42,7 +43,14 @@ public class Car {
 	}
 	@Override
 	public String toString() {
-		return "Car [model=" + model + ", make=" + make + ", year=" + year + "]";
+		return "Car [model=" + model + ", make=" + make + "]";
 	}
+	
+	@Override
+	public int compareTo(Car o) {
+		return this.getMake().compareTo(o.getMake());
+	}
+	
+	
 	
 }
