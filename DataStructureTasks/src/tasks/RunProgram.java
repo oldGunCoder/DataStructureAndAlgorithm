@@ -59,8 +59,13 @@ public class RunProgram {
 		Homework3 hw3 = new Homework3();
 		
 		System.out.println(hw3.countSubstring("gabacabcpppcabcabc"));
+		System.out.println(hw3.countSubstring("ga"));
+		System.out.println(hw3.countSubstring("gaopengisthebest"));
 		System.out.println("********************************************");
 		System.out.println(hw3.countElevens("119110114511119"));
+		System.out.println(hw3.countElevens("9"));
+		System.out.println(hw3.countElevens("1234567890"));
+
 		System.out.println("********************************************");
 		int[] array_d1 = new int[] {1,4,5};
 		int[] array_d2 = new int[] {1,5,9};

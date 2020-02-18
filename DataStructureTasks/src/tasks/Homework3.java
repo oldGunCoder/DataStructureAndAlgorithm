@@ -20,7 +20,7 @@ public class Homework3 {
 			return 1 + countSubstring(str.substring(3));
 		}
 		
-		//if it wasn't abc or aba, we removed the first character
+		//recursive statement: if it wasn't abc or aba, we removed the first character,
 		return countSubstring(str.substring(1));
 	}
 	
